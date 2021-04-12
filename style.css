@@ -207,7 +207,7 @@ a:hover {
     
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 100px) {
     .parallax {
       background-attachment: scroll;
     }

@@ -1,0 +1,269 @@
+* { margin: 0;
+    border: 0;
+    box-sizing: border-box
+;
+  
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+.navbar{
+    background-color: rgba(245, 240, 240, 0.2);
+    opacity: 0.8;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.navbar a {  
+color: rgb(5, 5, 5);    
+margin-left: 20px; 
+margin-right: 20px;
+}
+
+.navbar a:visited {
+   text-decoration: none;
+}
+
+.navbar a:link {
+   text-decoration: none;
+
+}
+
+.navbar a:hover{
+    color: rgb(247, 2, 2);
+ 
+
+}
+
+
+
+.parallax-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+  
+  
+  }
+  
+.fix-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/idea.jpg')
+  }
+
+  .intra-parallax {
+    position: relative;
+    z-index: 30;
+    background-color: rgb(247, 246, 249, 0.8);
+    color: #000000;
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+  }
+
+
+
+  .wrapper {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  
+
+
+
+
+.parallax p {
+    line-height: 50px;
+}
+.presentation p{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+  
+    font-weight: 400;
+    font-size: 26px;
+   
+  
+}
+.skill {
+    text-align: center;
+    margin-top: 150px;
+}
+.skill h1 {
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.skill p{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.formazione {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+ 
+
+}
+
+.formazione h1{
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 100px;
+  
+
+}
+    
+    .formazione p {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+#grandezza {
+  
+    width: 80px;
+    height: 53px;
+
+
+}
+#grandezza4{
+    margin-left: 15px;
+    width: 50px;
+    height: 53px;
+}
+.pratiche {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pratiche h1 {
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 100px;
+  
+
+}
+
+#grandezza1{
+    margin: 40px;
+    width: 90px;
+    height: 80px;
+}
+
+
+#grandezza2{
+    margin: 40px;
+    width: 90px;
+    height: 80px;
+}
+#grandezza3{
+    margin: 40px;
+    width: 90px;
+    height: 80px;
+}
+
+
+.footer-big {
+    text-align: center;
+    position: relative;
+    height: 150px;
+
+    color: rgb(0, 0, 0);
+}
+
+.footer-big p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Raleway', sans-serif; ;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+.footer {
+  
+    position: relative;
+  
+}
+#social1 {
+    width: 70px;
+    margin: 20px;
+   
+    
+}
+
+#social2, #social3 {
+
+    width: 50px;
+    margin: 20px;
+    
+}
+.footer a {
+    filter: grayscale(100%);
+ }
+ .footer a:hover {   
+    filter: grayscale(0);
+ }
+/* aboutme.html */
+.container-about {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    display: flex;
+    justify-content: right;
+    margin: 40px;
+  
+ 
+  
+ 
+  
+   
+}
+.presentazione {
+    padding: 40px;
+}
+
+.figure img {
+
+ max-width: 100%;
+ width: 700px;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -289,19 +289,6 @@ margin-right: 1.428%;
 
 
 }
-
-
-
-  
-  
-
-  
- 
-  
-
-
-
-
 .navbar_aboutme{
   
     background-color: rgba(246, 245, 245, 0.205);
@@ -343,7 +330,7 @@ margin-right: 1.428%;
 }
 
 .container-about p {
-    padding: 40px;
+    padding: 30px;
     font-size: 1.125rem;
     line-height: 1.625rem;
 }
@@ -353,16 +340,13 @@ margin-right: 1.428%;
 }
 .container-about img {
     margin-top: 100px;
-    width: 350px;
-    height: 350px;
-    padding: 40px;
+    width: 370px;
+    height: 370px;
+    padding: 30px;
 }
 .header {
     background-color:rgba(246, 245, 245, 0.205);
-  
-   
     width: 78.57%;
-    
     max-width: 100%;
 }
 
@@ -373,7 +357,7 @@ margin-right: 1.428%;
     font-weight: 500;
     width: 78.57%;
     display: flex;
-   
+    justify-content: space-between;
     flex-wrap: wrap;
    
 }
@@ -391,11 +375,6 @@ margin-right: 1.428%;
  
     
 }
-
-    
- 
- 
-
 
 .footer-big-aboutme {
  
@@ -439,9 +418,15 @@ margin-right: 1.428%;
    }
    .profilo img {
     max-width: 100%;
+    height: auto;
     width: 100%;
+    }
+    
+   .container-about img {
+       
     width: 450px;
     height: 450px;
+    margin-top:3.571%;   
    }
  
 
@@ -588,12 +573,19 @@ margin-right: 1.428%;
     font-size: 1.312em;
     margin-top: 3.571%;
     margin-bottom: 1.428;
-
-
-
-  
 }
-
+.curriculum a:visited {
+    text-decoration: none;
+ }
+ 
+ .curriculum a:link {
+    text-decoration: none;
+ 
+ }
+ 
+ .curriculum a:hover{
+     color: rgb(0, 0, 0);
+  }
 
 .footer-big-contatti {
     margin-top: 7.142%;

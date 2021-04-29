@@ -63,8 +63,7 @@ margin-right: 1.428%;
   }
   
 .fix_box {
-
-    background-attachment: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     display: block;

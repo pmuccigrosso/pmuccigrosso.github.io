@@ -46,6 +46,7 @@ margin-right: 1.428%;
 .navbar_home a:hover{
     color: rgb(255, 255, 255);
     font-size: 1.18em;
+    text-decoration:underline;
  
 
 }
@@ -296,6 +297,8 @@ margin-right: 1.428%;
 .navbar_aboutme a:hover{
     color: rgb(0, 0, 0);
     font-size: 1.18em;
+     text-decoration:underline;
+ 
  
 
 }
@@ -464,6 +467,8 @@ margin-right: 1.428%;
 .navbar_contact a:hover{
     color: rgb(0, 0, 0);
     font-size: 1.18em;
+     text-decoration:underline;
+ 
  
 
 }
